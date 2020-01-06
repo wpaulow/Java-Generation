@@ -1,0 +1,34 @@
+/* Classe Scanner do pacote java.util  =  Decodificador de bytes
+ * Um dos detalhes do Scanner é que ele pega o idioma local da máquina. Portanto, no
+ * momento de receber os dados do usuário ele não pegará o double ou float com ponto,
+ * mas sim com vírgula. */
+import java.util.Scanner;
+
+public class ExLeitura {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int a;
+		float b;
+		String texto;
+		
+		System.out.println("Digite um texto: ");
+		texto = teclado.nextLine();
+		
+		System.out.println("Digite um valor inteiro: ");
+		a = teclado.nextInt();
+		//nextInt() pega tudo o que eu digitei e confere se é do tipo do número 
+		
+		System.out.println("Digite um valor real: ");
+		b = teclado.nextFloat();
+		
+		System.out.println("Você digitou os valores " + a + " e " + b);
+		
+		System.out.println("O texto digitado vale: " + texto);
+		
+		
+
+	}
+
+}

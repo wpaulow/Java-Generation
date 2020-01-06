@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Uri1012 {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		double a, b, c, aTri, aCirc, aTrap, aQuad, aRet, pi;
+		
+		pi = 3.14159;
+		
+		a = teclado.nextDouble();
+		
+		b = teclado.nextDouble();
+		
+		c = teclado.nextDouble();
+		
+		aTri = (a * c) / 2;
+		
+		aCirc = pi * c;
+		
+		aTrap = (a + b / 2) * c;
+		
+		aQuad = b * b;
+		
+		aRet = a * b;
+		
+		System.out.printf("TRIANGULO %.3f", aTri);
+		System.out.println();
+		System.out.printf("CIRCULO %.3f", aCirc);
+		System.out.println();
+		System.out.printf("TRAPEZIO %.3f", aTrap);
+		System.out.println();
+		System.out.printf("QUADRADO %.3f", aQuad);
+		System.out.println();
+		System.out.printf("RETANGULO %.3f", aRet);
+		
+		
+		
+		//System.out.printf("%.3f", a);
+		
+	}
+
+}

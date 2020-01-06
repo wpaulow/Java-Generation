@@ -1,0 +1,22 @@
+/* Classe Scanner do pacote java.util  =  Decodificador de bytes*/
+import java.util.Scanner;
+
+public class ExLeitura {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int a;
+		float b;
+		
+		System.out.println("Digite um valor inteiro: ");
+		a = teclado.nextInt();
+		System.out.println("Digite um valor real: ");
+		b = teclado.nextFloat();
+		
+		System.out.println("Você digitou os valores " + a + " e " + b);
+		
+
+	}
+
+}
