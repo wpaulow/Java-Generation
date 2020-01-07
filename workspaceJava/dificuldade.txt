@@ -1,0 +1,15 @@
+4 6 7 2 4 1
+
+Média
+1143 ok
+1060 ok
+1044 ok
+1101 ok
+1045 ok
+1047 5%
+
+Difícil
+1164 5% ok, pero no mucho, com o auxílio do Felipão
+1165 
+1160
+
