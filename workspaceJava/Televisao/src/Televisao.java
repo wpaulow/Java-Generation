@@ -11,48 +11,48 @@ public class Televisao {
 		return marca;
 	}
 
-	public void setMarca(String marca) {
-		this.marca = marca;
+	public void setMarca(String _marca) {
+		this.marca = _marca;
 	}
 
 	public int getVoltagem() {
 		return voltagem;
 	}
 
-	public void setVoltagem(int voltagem) {
-		this.voltagem = voltagem;
+	public void setVoltagem(int _voltagem) {
+		this.voltagem = _voltagem;
 	}
 
 	public int getTamanho() {
 		return tamanho;
 	}
 
-	public void setTamanho(int tamanho) {
-		this.tamanho = tamanho;
+	public void setTamanho(int _tamanho) {
+		this.tamanho = _tamanho;
 	}
-
+	//padrão de mercado não tem get pra boolean, e sim "is"
 	public boolean isLigada() {
 		return ligada;
 	}
 
-	public void setLigada(boolean ligada) {
-		this.ligada = ligada;
+	public void setLigada(boolean _ligada) {
+		this.ligada = _ligada;
 	}
 
 	public int getVolume() {
 		return volume;
 	}
 
-	public void setVolume(int volume) {
-		this.volume = volume;
+	public void setVolume(int _volume) {
+		this.volume = _volume;
 	}
 
 	public int getCanal() {
 		return canal;
 	}
 
-	public void setCanal(int canal) {
-		this.canal = canal;
+	public void setCanal(int _canal) {
+		this.canal = _canal;
 	}	
 	
 	public void switchPower() {

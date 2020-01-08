@@ -50,5 +50,7 @@ public class AppTestaTv {
 			
 		}while(opcao != -1);
 		
+		teclado.close();
+		
 	}
 }
