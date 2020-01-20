@@ -1970,3 +1970,4 @@ java.lang.NullPointerException: null
 2020-01-20 15:58:00,269 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-01-20 15:58:00,271 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-20 15:58:00,272 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 15:58:00,272 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Generation\Documents\generation_wesley\Java-Generation\workspaceJava\crud\src\test\resources
