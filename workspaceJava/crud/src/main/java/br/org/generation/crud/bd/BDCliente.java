@@ -36,10 +36,10 @@ public class BDCliente {
 				posicao = i;
 				break;
 			}
-			if (posicao >= 0) {
-				lista.remove(posicao);
-				return true;
-			}
+		}
+		if (posicao >= 0) {
+			lista.remove(posicao);
+			return true;
 		}
 		return false;
 	}
