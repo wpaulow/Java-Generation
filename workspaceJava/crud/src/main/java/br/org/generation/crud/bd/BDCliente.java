@@ -29,11 +29,32 @@ public class BDCliente {
 		this.lista.add(c);
 	}
 	
-	public void apagar (Cliente c) {
-		
+	public boolean apagar (int id) {
+		int posicao = -1;
+		for (int i = 0; i < lista.size(); i++) {
+			if (lista.get(i).getId() == id) {
+				posicao = i;
+				break;
+			}
+			if (posicao >= 0) {
+				lista.remove(posicao);
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	public void atualizar (Cliente c) {
+		int posicao = -1;
+		for (int i = 0; i < lista.size(); i++) {
+			if (lista.get(i).getId() == c.getId()) {
+				posicao = i;
+				break;
+			}
+			if (posicao >= 0) {
+				lista.set(posicao, c);
+			}
+		}
 		
 	}
 	
