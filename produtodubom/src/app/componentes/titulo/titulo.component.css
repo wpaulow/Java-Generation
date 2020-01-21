@@ -1,0 +1,10 @@
+  
+.titulo{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(32, 32, 158, 0.794);
+    margin-bottom: 15px;
+    color: white;
+}
