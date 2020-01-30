@@ -67,7 +67,7 @@ public class Produto {
 	public String getLinkFoto() {
 		return linkfoto;
 	}
-	public void setLinkFoto(String linkoto) {
+	public void setLinkFoto(String linkfoto) {
 		this.linkfoto = linkfoto;
 	}
 	

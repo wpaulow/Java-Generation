@@ -14,6 +14,8 @@ import br.org.generation.vitrinevirtual.model.Produto;
  * Nossa classe usa um objeto do tipo IProdutoRepo que é uma interface. Delegamos a 
  * responsabilidade de encontrar a implementação ao SpringBoot, através do
  * @Autowired */
+
+/**/
 @Component
 public class ProdutoServiceImpl implements IProdutoService {
 
@@ -32,6 +34,12 @@ public class ProdutoServiceImpl implements IProdutoService {
 	public Produto recuperarPorId(int id) {
 		
 		return repo.findById(id).orElse(null);
+	}
+
+	@Override
+	public void novoProduto(Produto produto) {
+		
+		repo.save(produto);
 	}
 
 }
