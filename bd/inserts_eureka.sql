@@ -1,0 +1,86 @@
+insert into tbl_cadastroUsuario (email, nomeUsuario, senha, telefone) 
+				values ("lauraolp@gmail.com","Laura Oliveira Pedro","pizza@1234", 3234567891),
+						("anabeatriz@gmail.com","Ana Beatriz Pires","shawarma@1", 3234567892),
+                        ("wesleypaulow@gmail.com","Wesley Paulow","sinuquinha#8", 3234567893),
+                        ("edsonsantana@gmail.com","Edson Santana","123@lasanha", 3234567894),
+                        ("andrewitalo@gmail.com","Italo Andrew","1336#jogarlol", 3234567895),
+                        ("thiagocalegari@gmail.com","Thiago Calegari","lasanha#bolonhesa", 3234567896),
+                        ("gennyamaral@gmail.com","Generosa Amaral","1336@coxinha", 3234567897),
+                        ("lucasp@gmail.com","Lucas Pereira","1336@coxinha1", 3234567898),
+                        ("adrian@gmail.com","Adrian Costa","1386@coxinha2", 3234567899),
+                        ("pcosta@gmail.com","Paulo Costa","1386@coxinha3", 1234567891),
+                        ("sammyol@gmail.com","Samara Oliveira","1386@coxinha34", 2234567891),
+                        ("lauraquinoc@gmail.com","Laura Aquino","1386@coxinha00", 4234567891),
+                        ("pedro@gmail.com","Pedro Reis","1234@coxinha34", 5234567891),
+                        ("cmarques@gmail.com","Cleiton Marques","1386@coxinha98", 6234567891),
+                        ("ifrancisco@gmail.com","Francisco Isidro","@aulas78945", 7234567891);
+				
+            
+               
+insert into tbl_perfilUsuario (idUsuario, fotoPerfil, descricao)
+               values (1, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (3, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (4, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (6, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (7, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (8, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (9, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (10, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (11, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (12, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (13, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (14, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação"),
+               (15, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsuTS_jn0D9HAglydT2tt12kiwaAwdfgCgRlidlTkh7CMvkW0', "Olá! Gosto de compartilhar rolês interessantes que agregam cultura e educação");
+               
+insert into tbl_postagem(idUsuario, mensagem, dataPost)
+		values (1, "O parque do ibirapuera é um lugar incrível. Adoro as exposições da Oca", "2019-09-01"),
+		(2, "Gosto de visitar a Pinacoteca. A exposição da Tarsila do Amaral foi a mais incrível que já vi", "2019-02-01"),
+		(3, "O novo mirante do Sesc na Paulista é de top", "2020-08-01"),
+		(4, "Não vejo a hora de visitar a exposição de múmias do Egito", "2020-02-01"),
+		(5, "Fui ouvir a Orquestra Sinfônica do Estado de São Paulo no Teatro Municipal. Foi mara!!", "2019-07-01"),
+		(6, "O parque do ibirapuera é um lugar incrível. Adoro as exposições da Oca", "2020-02-01"),
+		(7,  "Gosto de visitar a Pinacoteca. A exposição da Tarsila do Amaral foi a mais incrível que já vi", "2019-02-01"),
+		(8, "O novo mirante do Sesc na Paulista é de top", "2020-02-01" ),
+		(9, "Fui ouvir a Orquestra Sinfônica do Estado de São Paulo no Teatro Municipal. Foi mara!!", "2020-02-01"),
+		(10, "Não vejo a hora de visitar a exposição de múmias do Egito", "2019-02-01"),
+		(11, "O parque do ibirapuera é um lugar incrível. Adoro as exposições da Oca", "2019-02-01"),
+		(12, "Fui ouvir a Orquestra Sinfônica do Estado de São Paulo no Teatro Municipal. Foi mara!!", "2020-02-01"),
+		(13,  "Gosto de visitar a Pinacoteca. A exposição da Tarsila do Amaral foi a mais incrível que já vi", "2019-10-01"),
+		(14,  "Gosto de visitar a Pinacoteca. A exposição da Tarsila do Amaral foi a mais incrível que já vi", "2020-02-01"),
+		(15, "O novo mirante do Sesc na Paulista é de top", "2020-01-01");
+    
+insert into tbl_comentario (idPostagem, texto, dataComent)
+		values (1,"legaldhf","2000-02-01"),
+        (2,"legal","2000-02-01"),
+        (3,"Adorei também","2000-02-01"),
+        (4,"Achei super Legal","2000-02-01"),
+        (5,"Quero ir","2000-02-01"),
+        (6,"Quero ir de novo","2000-02-01"),
+        (7,"Amei mil vezes","2000-02-01"),
+        (8,"Super legal","2000-02-01"),
+        (9,"TOOOOP","2000-02-01"),
+        (10,"Mega super top","2000-02-01"),
+        (11,"iria mais mil vezes","2000-02-01"),
+        (12,"Dahora","2000-02-01"),
+        (13,"Muito interessante","2000-02-01"),
+        (14,"Fui com os meus parentes","2000-02-01"),
+        (15,"Super top","2000-02-01");
+        
+insert into tbl_faleConosco (nome, sobrenome, telefone, mensagem) 
+			values ("João","Feijão","11964784569","olá"),
+					("José","Carlos","11987654321","oi"),
+                    ("Marcos","da Silva","11987456123","e ai"),
+                    ("Joana","Hypólito","11324569871","tenho dúvidas"),
+                    ("Marcela","da Generation","11321456987","quero elogiar o site"),
+                    ("Isidro","Francisco","11123456789","pipipi pópópó"),
+                    ("Thiago","Lima","11987456123","tudo bem"),
+                    ("Thiago","Calegari","11236154987","gostei da proposta do site!"),
+                    ("Everaldo","Joanizo","11236548791","legal, bacana"),
+                    ("Felipe","Martinelli","11326541789","quero créditos!"),
+                    ("Luisa","dos Empregos","11236541789","temos mais um empregador"),
+                    ("Totus","Empresa Boa","11321654789","queremos generates!"),
+                    ("Rubinho","Barrichello","11231654897","guaraná"),
+                    ("Marcos","Costa","11123564789","banco de dados"),
+                    ("João","de Novo","1123564789","ufa");
