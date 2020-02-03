@@ -11,6 +11,9 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  private user: boolean = false;
+  private msg: boolean = false;
+
   private mensagem:number;
   private usuario:Usuario = new Usuario();
 
